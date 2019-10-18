@@ -1,0 +1,77 @@
+[debug] [2019-10-18T19:49:39.934Z] ----------------------------------------------------------------------
+[debug] [2019-10-18T19:49:39.936Z] Command:       /opt/node/10.16.3/bin/node /opt/node/10.16.3/bin/firebase serve
+[debug] [2019-10-18T19:49:39.936Z] CLI Version:   7.6.1
+[debug] [2019-10-18T19:49:39.936Z] Platform:      linux
+[debug] [2019-10-18T19:49:39.937Z] Node Version:  v10.16.3
+[debug] [2019-10-18T19:49:39.937Z] Time:          Fri Oct 18 2019 16:49:39 GMT-0300 (Brasilia Standard Time)
+[debug] [2019-10-18T19:49:39.937Z] ----------------------------------------------------------------------
+[debug] [2019-10-18T19:49:39.937Z] 
+[debug] [2019-10-18T19:49:39.941Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-18T19:49:39.942Z] > authorizing via signed-in user
+[debug] [2019-10-18T19:49:39.942Z] [iam] checking project graphirebase-devfest-2019 for permissions ["firebase.projects.get"]
+[debug] [2019-10-18T19:49:39.943Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/graphirebase-devfest-2019:testIamPermissions  
+
+[debug] [2019-10-18T19:49:40.899Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-18T19:49:40.900Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/graphirebase-devfest-2019  
+ 
+[debug] [2019-10-18T19:49:42.044Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ventura/internal_git/firebase/functions-samples/spotify-auth'...
+[info] 
+[debug] [2019-10-18T19:49:42.046Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/graphirebase-devfest-2019/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-10-18T19:49:43.463Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-10-18T19:49:43.678Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions","node_version":"10.16.3"}
+[debug] [2019-10-18T19:49:43.678Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-10-18T19:53:51.953Z] ----------------------------------------------------------------------
+[debug] [2019-10-18T19:53:51.954Z] Command:       /opt/node/10.16.3/bin/node /opt/node/10.16.3/bin/firebase serve
+[debug] [2019-10-18T19:53:51.954Z] CLI Version:   7.6.1
+[debug] [2019-10-18T19:53:51.954Z] Platform:      linux
+[debug] [2019-10-18T19:53:51.954Z] Node Version:  v10.16.3
+[debug] [2019-10-18T19:53:51.955Z] Time:          Fri Oct 18 2019 16:53:51 GMT-0300 (Brasilia Standard Time)
+[debug] [2019-10-18T19:53:51.955Z] ----------------------------------------------------------------------
+[debug] [2019-10-18T19:53:51.955Z] 
+[debug] [2019-10-18T19:53:51.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-18T19:53:51.958Z] > authorizing via signed-in user
+[debug] [2019-10-18T19:53:51.959Z] [iam] checking project graphirebase-devfest-2019 for permissions ["firebase.projects.get"]
+[debug] [2019-10-18T19:53:51.960Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/graphirebase-devfest-2019:testIamPermissions  
+
+[debug] [2019-10-18T19:53:52.974Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-18T19:53:52.975Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/graphirebase-devfest-2019  
+ 
+[debug] [2019-10-18T19:53:54.181Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ventura/internal_git/firebase/functions-samples/spotify-auth'...
+[info] 
+[debug] [2019-10-18T19:53:54.183Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/graphirebase-devfest-2019/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-10-18T19:53:55.381Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-10-18T19:53:55.567Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions","node_version":"10.16.3"}
+[debug] [2019-10-18T19:53:55.567Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-18T19:53:55.569Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-18T19:53:55.570Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-18T19:53:55.570Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module './service-account.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/ventura/internal_git/firebase/functions-samples/spotify-auth/functions/index.js:24:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[warn] ⚠  We were unable to load your functions code. (see above)

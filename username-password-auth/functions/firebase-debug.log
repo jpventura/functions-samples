@@ -1,0 +1,45 @@
+[debug] [2019-10-18T19:59:08.711Z] ----------------------------------------------------------------------
+[debug] [2019-10-18T19:59:08.712Z] Command:       /opt/node/10.16.3/bin/node /opt/node/10.16.3/bin/firebase serve
+[debug] [2019-10-18T19:59:08.712Z] CLI Version:   7.6.1
+[debug] [2019-10-18T19:59:08.712Z] Platform:      linux
+[debug] [2019-10-18T19:59:08.712Z] Node Version:  v10.16.3
+[debug] [2019-10-18T19:59:08.713Z] Time:          Fri Oct 18 2019 16:59:08 GMT-0300 (Brasilia Standard Time)
+[debug] [2019-10-18T19:59:08.713Z] ----------------------------------------------------------------------
+[debug] [2019-10-18T19:59:08.713Z] 
+[debug] [2019-10-18T19:59:08.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-18T19:59:08.716Z] > authorizing via signed-in user
+[debug] [2019-10-18T19:59:08.717Z] [iam] checking project graphirebase-devfest-2019 for permissions ["firebase.projects.get"]
+[debug] [2019-10-18T19:59:08.718Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/graphirebase-devfest-2019:testIamPermissions  
+
+[debug] [2019-10-18T19:59:09.720Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-18T19:59:09.721Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/graphirebase-devfest-2019  
+ 
+[debug] [2019-10-18T19:59:10.921Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ventura/internal_git/firebase/functions-samples/username-password-auth'...
+[info] 
+[debug] [2019-10-18T19:59:10.923Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/graphirebase-devfest-2019/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-10-18T19:59:12.121Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/ventura/internal_git/firebase/functions-samples/username-password-auth/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-10-18T19:59:12.322Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/ventura/internal_git/firebase/functions-samples/username-password-auth/functions","node_version":"10.16.3"}
+[debug] [2019-10-18T19:59:12.322Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-18T19:59:12.324Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"/home/ventura/internal_git/firebase/functions-samples/username-password-auth/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-18T19:59:12.325Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/ventura/internal_git/firebase/functions-samples/username-password-auth/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-18T19:59:12.325Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/ventura/internal_git/firebase/functions-samples/username-password-auth/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module './service-account.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/ventura/internal_git/firebase/functions-samples/username-password-auth/functions/index.js:25:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[warn] ⚠  We were unable to load your functions code. (see above)
